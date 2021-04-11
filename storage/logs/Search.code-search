@@ -1,0 +1,105 @@
+# Query: PackageManifest.php
+# ContextLines: 1
+
+47 results - 3 files
+
+storage\logs\laravel.log:
+  7353  "} 
+  7354: [2021-03-01 17:54:55] laravel.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at E:\\FU\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:122)
+  7355  [stacktrace]
+  7356: #0 E:\\FU\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined index...', 'E:\\\\FU\\\\biddo\\\\ven...', 122, Array)
+  7357  #1 E:\\FU\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Collection.php(685): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}(Array, 'packages')
+  7358: #2 E:\\FU\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys(Object(Closure))
+  7359: #3 E:\\FU\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+  7360: #4 E:\\FU\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+  7361  #5 E:\\FU\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+
+  7379  "} 
+  7380: [2021-03-01 17:55:24] laravel.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at E:\\FU\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:122)
+  7381  [stacktrace]
+  7382: #0 E:\\FU\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined index...', 'E:\\\\FU\\\\biddo\\\\ven...', 122, Array)
+  7383  #1 E:\\FU\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Collection.php(685): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}(Array, 'packages')
+  7384: #2 E:\\FU\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys(Object(Closure))
+  7385: #3 E:\\FU\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+  7386: #4 E:\\FU\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+  7387  #5 E:\\FU\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+
+  7405  "} 
+  7406: [2021-03-30 19:10:41] laravel.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:122)
+  7407  [stacktrace]
+  7408: #0 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined index...', 'C:\\\\Users\\\\Farhad...', 122, Array)
+  7409  #1 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Collection.php(685): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}(Array, 'packages')
+  7410: #2 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys(Object(Closure))
+  7411: #3 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+  7412: #4 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+  7413  #5 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+
+  7431  "} 
+  7432: [2021-03-30 19:21:01] laravel.ERROR: Undefined index: biddo {"exception":"[object] (ErrorException(code: 0): Undefined index: biddo at C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:122)
+  7433  [stacktrace]
+  7434: #0 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined index...', 'C:\\\\Users\\\\Farhad...', 122, Array)
+  7435  #1 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Collection.php(685): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}(Array, 'packages')
+  7436: #2 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys(Object(Closure))
+  7437: #3 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+  7438: #4 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+  7439  #5 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+
+  7457  "} 
+  7458: [2021-03-30 19:21:32] laravel.ERROR: Undefined index: /public/index.php {"exception":"[object] (ErrorException(code: 0): Undefined index: /public/index.php at C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:122)
+  7459  [stacktrace]
+  7460: #0 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined index...', 'C:\\\\Users\\\\Farhad...', 122, Array)
+  7461  #1 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Collection.php(685): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}(Array, 'packages')
+  7462: #2 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys(Object(Closure))
+  7463: #3 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+  7464: #4 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+  7465  #5 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+
+  7483  "} 
+  7484: [2021-03-30 19:21:57] laravel.ERROR: Undefined index: laravel {"exception":"[object] (ErrorException(code: 0): Undefined index: laravel at C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:122)
+  7485  [stacktrace]
+  7486: #0 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined index...', 'C:\\\\Users\\\\Farhad...', 122, Array)
+  7487  #1 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Collection.php(685): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}(Array, 'packages')
+  7488: #2 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys(Object(Closure))
+  7489: #3 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+  7490: #4 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+  7491  #5 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+
+  7509  "} 
+  7510: [2021-03-30 19:22:49] laravel.ERROR: Undefined index: laravel {"exception":"[object] (ErrorException(code: 0): Undefined index: laravel at C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:122)
+  7511  [stacktrace]
+  7512: #0 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined index...', 'C:\\\\Users\\\\Farhad...', 122, Array)
+  7513  #1 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Collection.php(685): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}(Array, 'packages')
+  7514: #2 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys(Object(Closure))
+  7515: #3 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+  7516: #4 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+  7517  #5 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+
+  7535  "} 
+  7536: [2021-03-30 19:24:54] laravel.ERROR: Undefined index: manifestPath {"exception":"[object] (ErrorException(code: 0): Undefined index: manifestPath at C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:122)
+  7537  [stacktrace]
+  7538: #0 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined index...', 'C:\\\\Users\\\\Farhad...', 122, Array)
+  7539  #1 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Collection.php(685): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}(Array, 'packages')
+  7540: #2 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys(Object(Closure))
+  7541: #3 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+  7542: #4 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+  7543  #5 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+
+  7561  "} 
+  7562: [2021-04-10 16:58:26] laravel.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php:122)
+  7563  [stacktrace]
+  7564: #0 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined index...', 'C:\\\\Users\\\\Farhad...', 122, Array)
+  7565  #1 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Collection.php(685): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}(Array, 'packages')
+  7566: #2 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys(Object(Closure))
+  7567: #3 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+  7568: #4 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+  7569  #5 C:\\Users\\Farhad Uddin\\Desktop\\biddo\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+
+vendor\composer\autoload_classmap.php:
+  2053      'Illuminate\\Foundation\\Mix' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/Mix.php',
+  2054:     'Illuminate\\Foundation\\PackageManifest' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/PackageManifest.php',
+  2055      'Illuminate\\Foundation\\ProviderRepository' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php',
+
+vendor\composer\autoload_static.php:
+  2530          'Illuminate\\Foundation\\Mix' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/Mix.php',
+  2531:         'Illuminate\\Foundation\\PackageManifest' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/PackageManifest.php',
+  2532          'Illuminate\\Foundation\\ProviderRepository' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php',
